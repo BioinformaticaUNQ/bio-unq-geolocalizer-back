@@ -36,11 +36,11 @@ To update dependencies, run:
 
 ### Basic usage
 
-You'll need an NCBI account to communicate with the Entrez database. Please edit the `main.py` file and add your address to the email variable.
+You'll need an NCBI account to communicate with the Entrez database. Please edit your `config.json` file and add your address to the email variable.
 
 To call the program:
 
-`python main.py geolocalized_seqs.fasta`
+`python main.py --fasta src/files/examples_2.fasta`
 
 ### Config your environment
 
@@ -64,3 +64,7 @@ In IQtree the Bootstrap value must be greater than or equal to 1000, and the fin
 ### Debugging
 
 You'll find every file created by the program inside the `tmp` folder. There's also a log file you can use to understand more about the execution.
+
+### Map example
+
+![Map_png](screenshot.png)
